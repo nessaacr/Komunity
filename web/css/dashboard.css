@@ -1,0 +1,234 @@
+body {
+    width: 414px;
+    height: 1086px;
+    background: #EFECE1;
+}
+
+.icon {
+    width: 44px;
+    height: 62px;
+}
+
+.header {
+    list-style-type: none;
+}
+
+.header-content {
+    float: left;
+}
+
+.appbar {
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+}
+
+.dashboard-sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #EFECE1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.dashboard-sidenav a {
+    font-family: "Montserrat";
+    padding: 8px 8px 8px 32px;
+    text-decoration: underline;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.dashboard-sidenav .close-button {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.sidenav-content {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.status {
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+}
+
+.cluster {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.4;
+}
+
+.date {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.container-status {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.container-status>div {
+    text-align: center;
+}
+
+.container-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.container-content {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.dashboard-button {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.dashboard-button>div {
+    text-align: center;
+}
+
+.dashboard-button-content {
+    border-radius: 30px;
+    width: 112px;
+    height: 112px;
+}
+
+.dashboard-button-text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+.container-fogging {
+    width: 334px;
+    height: 239px;
+    padding: 50px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.fogging-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.fogging-content {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+footer {
+    width: 414px;
+    height: 184px;
+    background: #524F4A;
+    padding: 50px;
+}
+
+.footer-link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.footer-icon {
+    float: left;
+    width: 23px;
+    height: 33px;
+}
+
+.copyright {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}

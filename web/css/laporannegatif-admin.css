@@ -1,0 +1,156 @@
+body {
+    width: 414px;
+    height: 1086px;
+    background: #EFECE1;
+}
+
+header {
+    position: absolute;
+    width: 334px;
+    height: 24px;
+    top: 88px;
+}
+
+#report-title {
+    position: absolute;
+    width: 302px;
+    height: 24px;
+    left: 40px;
+    top: 136px;
+}
+
+#navbar {
+    list-style-type: none;
+}
+
+#navbar > li {
+    float: left;
+}
+
+#navbar > li > a {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A8A8A8;
+}
+
+h1 { 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+
+#riwayat {
+    position: absolute;
+    width: 96px;
+    height: 17px;
+    left: 278px;
+    top: 275px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+}
+
+.container-person{
+    position: absolute;
+    width: 334px;
+    height: 640px;
+    left: 40px;
+    top: 288px;
+}
+
+.name-button {
+    display:block;
+    background-color:#D8DBC8;
+    width: 334px;
+    height: 100px;
+    padding-bottom: 40px;
+    border-radius: 14px;
+}
+
+.name {
+    width: 236px;
+    height: 27px;
+    padding-left: 38px;
+    padding-top: 38px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.number {
+    padding-left: 38px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+footer {
+    position: absolute;
+    background: #524F4A;
+    width: 414px;
+    height: 184px;
+    left: 0px;
+    top: 964px;
+    }
+
+#footer-content {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.footer-link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.footer-icon {
+    float: left;
+    width: 23px;
+    height: 33px;
+}
+
+.copyright {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
