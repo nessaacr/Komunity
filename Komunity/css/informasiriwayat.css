@@ -1,0 +1,149 @@
+body {
+    width: 414px;
+    height: 1086px;
+    background: #EFECE1;
+}
+
+header {
+    position: absolute;
+    width: 334px;
+    height: 24px;
+    top: 88px;
+}
+
+#navbar {
+    list-style-type: none;
+}
+
+#navbar > li {
+    float: left;
+}
+
+#navbar > li > a {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A8A8A8;
+}
+
+#report-title {
+    position: absolute;
+    width: 334px;
+    height: 24px;
+    left: 40px;
+    top: 136px;
+}
+
+h1 { 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+
+input {
+    position: absolute;
+    left: 358px;
+    width: 16px;
+    height: 16px;
+}
+
+.name-list {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    color: #000000;
+    padding-left: 24px;
+}
+
+
+footer {
+    position: absolute;
+    background: #524F4A;
+    width: 414px;
+    height: 184px;
+    left: 0px;
+    top: 904px;
+    }
+
+#footer-content {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.footer-link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.footer-icon {
+    float: left;
+    width: 23px;
+    height: 33px;
+}
+
+.copyright {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.identity {
+    position: absolute;
+    width: 334px;
+    height: 24px;
+    left: 40px;
+    top: 360px;
+}
+
+.content-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #524F4A;
+}
+
+.content-data {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    color: #000000;
+}
+
+#report-title {
+    position: absolute;
+    width: 334px;
+    height: 24px;
+    left: 40px;
+    top: 136px;
+}
